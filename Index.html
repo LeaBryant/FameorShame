@@ -4,71 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" >
+    <link rel="stylesheet" href="./Assets/css/style.css" />
     <title>Game Time</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  
 </head>
-<header>
-    <!-- create and apply a custom class name "custom-navbar" -->
-    <nav class="navbar navbar-expand-lg custom-navbar">
-        <a class="navbar-brand" href="#">High Scores</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbar">
-            <div class="navbar-nav ml-auto">
-              <a class="nav-item nav-link" href="#">Timer</a>
-            </div>
-          </div>
-        </nav>
-</header>
-<body>
-        <div class="quiz-container" id="quiz">
-            <div class="quiz-header">
-              <h2 id="question">Question Text</h2>
-              <ul>
-                <li>
-                  <input type="radio" name="answer" id="a" class="answer">
-                  <label for="a" id="a_text">Answer</label>
-                </li>
-        
-                <li>
-                  <input type="radio" name="answer" id="b" class="answer">
-                  <label for="b" id="b_text">Answer</label>
-                </li>
-        
-                <li>
-                  <input type="radio" name="answer" id="c" class="answer">
-                  <label for="c" id="c_text">Answer</label>
-                </li>
-        
-                <li>
-                  <input type="radio" name="answer" id="d" class="answer">
-                  <label for="d" id="d_text">Answer</label>
-                </li>
-        
-              </ul>
-            </div>
-        
-            <button id="submit">Submit</button>
-        <!-- <div id="quiz"></div>
-        <button id="results">Get Results</button>
-        <div id="submit"></div> -->
 
-    <!-- <div class="position-relative"></div>
-        <h1>Word Guess Game</h1>
-     <button>Start!</button>
-     <div class="position-absolute top-50 start-50 translate-middle"></div>
-
-     <div>
-        <section "word-box"> </section>
-        <section "words"> </section>
-      </div> -->
-
-     <script src="assets/js/script.js"></script>
 <body>
 
+    <div class="card text-center">
+        <div class="card-header" id="Timer">
+          Timer
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">So you think you know know Code?!</h5>
+          <p class="card-text">You have 30 seconds to beat the clock! Can you get them all right and reserve your spot in the "Hall of Fame Wall!".</p>
+          <a href="./questions.html" class="btn btn-primary">LET THE GAMES BEGIN!</a>
+        </div>
+        <div class="highScores">
+            <a id="quiz-start-page" href="./highscorespage.html" >Hall of Fame!</a>
+        </div>
+      </div>
+    
+
+
+
+</body>
+<script src="./Assets/js/script.js"></script>
 </html>
+
+
