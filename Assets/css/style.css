@@ -24,8 +24,99 @@ body {
   font-family: 'Karla', sans-serif;
 }
 
-.container {
-  font-size: larger;
-  font-weight: bolder;
+header {
+  justify-content: space-between;
+  display: flex;
+  padding: 20px;
+  flex-wrap: nowrap;
 }
 
+.time{
+  display: flex;
+}
+
+.hs a {
+  text-decoration: none;
+  color: plum;
+  
+  
+  
+}
+.time{
+  
+  justify-self: flex-end;
+}
+
+.container {
+  display: flex;
+  width: 50%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.description {
+  padding-bottom: 20px;
+}
+
+.btn {
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  font-size: large;
+  margin: 10px auto;
+}
+
+.btn:hover {
+  background-color: plum;
+}
+
+.answer-btn {
+  display: block;
+  width: 200px;
+}
+
+.end {
+  display: block;
+  text-align:left;
+}
+
+.correct {
+  font-style: italic;
+  color: rgb(250, 230, 13);
+  border-top: 2px solid rgb(0, 0, 0);
+  font-size: large;
+  margin:25px auto;
+  padding: 10px;
+  width: 60%;
+  
+}
+
+.highscores {
+  width: 40%;
+  margin: 150px auto;
+  
+}
+
+ol {
+  padding: 20px 0;
+}
+
+li {
+  padding: 5px 0;
+  list-style-position: inside;
+}
+
+li:nth-child(2n-1){
+  background-color: lavender;
+}
+
+.hide {
+  display: none;
+}
+
+.quiz {
+  margin: 10px auto;
+}
