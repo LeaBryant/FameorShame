@@ -24,8 +24,9 @@ A user clicks through an interactive coding quiz, then enters initials to save t
 The following animation demonstrates the application functionality:
 
 # Website 
--Github Repo:
--Live:file:///Users/leabryant/Desktop/Bootcamp/Challenge%20Folder/myGameweek4/index.html
+-Github Repo:https://github.com/LeaBryant/myGameweek4
+
+-Live:https://leabryant.github.io/myGameweek4/
 
 # Contributions 
 Your's truly Lea Bryant 🦄
