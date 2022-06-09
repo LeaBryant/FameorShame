@@ -24,9 +24,9 @@ A user clicks through an interactive coding quiz, then enters initials to save t
 The following animation demonstrates the application functionality:
 
 # Website 
--Github Repo:https://github.com/LeaBryant/myGameweek4
+-Github Repo: https://github.com/LeaBryant/FameorShame.git
 
--Live:https://leabryant.github.io/myGameweek4/
+-Live: https://leabryant.github.io/FameorShame/
 
 # Contributions 
 Your's truly Lea Bryant 🦄 
