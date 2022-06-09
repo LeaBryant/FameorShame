@@ -29,4 +29,4 @@ The following animation demonstrates the application functionality:
 -Live:https://leabryant.github.io/myGameweek4/
 
 # Contributions 
-Your's truly Lea Bryant 🦄
+Your's truly Lea Bryant 🦄 
